@@ -20,7 +20,7 @@
       </div>
 
 
-      <table class="site-table">
+      <table class="table table-hover">
         <thead>
             <tr>
                  <th> Login </th>

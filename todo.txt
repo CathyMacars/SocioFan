@@ -1,18 +1,21 @@
-multas.php
+--multas.php
   campo "para a seleção da data"
   (datepicker?)
 
-torcedores.php
+--torcedores.php
   "identificação de torcedores sendo visualizados / torcedores cadastrados"
   (wtf?)
 
-editar.php
+--editar.php
   campo "nascimento"
   (datepicker?)
 
-reservas.php
+--reservas.php
   "Ao tentar adicionar uma nova reserva, o funcionário do clube terá de informar o login do torcedor, selecionar a cadeira e a data do jogo"
   (outra tela, ou direto na tabela?)
 
   "elemento informativo com a quantidade de reservas visualizadas / quantidade de reservas cadastradas"
   (wtf?)
+
+  "Ao tentar excluir uma reserva, o sistema irá enviar uma mensagem de confirmação para o funcionário do clube"
+  (modal/overlay?)
