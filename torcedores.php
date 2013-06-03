@@ -14,13 +14,13 @@
           <option>Modalidade C</option>
         </select>
 
-        <input class="fan-filter" type="text" class="filter" placeholder="Filtrar por login...">
+        <input class="table-filter" type="text" class="filter" placeholder="Filtrar por login...">
 
         <button class="btn">Adicionar Torcedor</button>
       </div>
 
 
-      <table class="fan-table">
+      <table class="site-table">
         <thead>
             <tr>
                  <th> Login </th>
@@ -32,17 +32,17 @@
             <tr>
                  <td> Login </td>
                  <td> Modalidade </td>
-                 <td> <?php include "inc/actions.php"; ?> </td>
+                 <td> <?php include "inc/fanTableActions.php"; ?> </td>
             </tr>
             <tr>
                  <td> Login </td>
                  <td> Modalidade </td>
-                 <td> <?php include "inc/actions.php"; ?> </td>
+                 <td> <?php include "inc/fanTableActions.php"; ?> </td>
             </tr>
             <tr>
                  <td> Login </td>
                  <td> Modalidade </td>
-                 <td> <?php include "inc/actions.php"; ?> </td>
+                 <td> <?php include "inc/fanTableActions.php"; ?> </td>
             </tr>
         </tbody>
       </table>

@@ -1,39 +1,39 @@
-.fan-table {
+.site-table {
   width: 100%;
 }
 
-.fan-table thead {
+.site-table thead {
   line-height: 2em;
   text-transform: uppercase;
   text-align: left;
 }
 
-.fan-table th,
-.fan-table td {
+.site-table th,
+.site-table td {
   padding: 5px 50px 5px 0;
   border-bottom: solid 1px;
 }
 
-.fan-table th:last-child,
-.fan-table td:last-child {
+.site-table th:last-child,
+.site-table td:last-child {
   padding-right: 0;
   text-align: right;
 }
 
-.fan-table tbody tr:hover {
+.site-table tbody tr:hover {
   background: #a4b1d5;
 }
 
-.fan-table tbody tr:hover a {
+.site-table tbody tr:hover a {
   color: #fff;
 }
 
-.fan-table__actions-list {
+.site-table__actions-list {
   display: inline-block;
   margin: 0;
 }
 
-.fan-table__actions-list li {
+.site-table__actions-list li {
   list-style-type: none;
   float: left;
   margin-right: 10px;
@@ -41,7 +41,7 @@
   text-transform: lowercase;
 }
 
-.fan-table__actions-list li:last-child {
+.site-table__actions-list li:last-child {
   margin-right: 0;
 }
 
