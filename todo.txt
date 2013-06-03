@@ -3,3 +3,6 @@ multas.php
 
 torcedores.php
   "identificação de torcedores sendo visualizados / torcedores cadastrados" (wtf?)
+
+editar.php
+  campo 'nascimento': datepicker?

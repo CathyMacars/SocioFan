@@ -14,8 +14,8 @@
       .pkt_added {text-decoration:none !important;}
     </style>
 
-    <!-- Project CSS -->
-    <link href="css/styles.css" rel="stylesheet">
+    <!-- SocioFan CSS -->
+    <link href="css/SocioFan.css" rel="stylesheet">
   </head>
 
   <body class="PKT_ENABLED">
