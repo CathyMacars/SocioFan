@@ -63,7 +63,7 @@ input[type="password"] {
   margin-bottom: 15px;
 }
 
-#teste {
+#title-input {
   border-color: transparent;
   box-shadow: none;
   font-size: 21px;
@@ -76,7 +76,7 @@ input[type="password"] {
   transition: none;
 }
 
-#teste:hover {
+#title-input:hover {
 /*  border: solid 1px;
   padding: 14px 10px;*/
   font-size: 14px;
