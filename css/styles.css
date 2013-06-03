@@ -1,0 +1,39 @@
+.cabecalho-pagina {
+  margin-bottom: 50px;
+}
+
+.tabela-torcedores thead {
+  line-height: 2em;
+  text-transform: uppercase;
+}
+
+.tabela-torcedores th,
+.tabela-torcedores td {
+  padding-right: 150px;
+  border-bottom: solid 1px;
+}
+
+.tabela-torcedores th:last-child,
+.tabela-torcedores td:last-child {
+  padding-right: 0;
+}
+
+.tabela-torcedores tbody tr:hover {
+  background: #a9b9e4; /*#7fd9f8*/
+}
+
+.tabela-torcedores tbody tr:hover a {
+  color: #fff; /*#7fd9f8*/
+}
+
+.tabela-torcedores__lista-acoes li {
+  list-style-type: none;
+  float: left;
+  margin-right: 10px;
+  font-size: 0.8em;
+  text-transform: lowercase;
+}
+
+.tabela-torcedores__lista-acoes li:last-child {
+  margin-right: 0;
+}
