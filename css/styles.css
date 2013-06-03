@@ -1,32 +1,39 @@
-.cabecalho-pagina {
-  margin-bottom: 50px;
+.fan-table {
+  width: 100%;
 }
 
-.tabela-torcedores thead {
+.fan-table thead {
   line-height: 2em;
   text-transform: uppercase;
+  text-align: left;
 }
 
-.tabela-torcedores th,
-.tabela-torcedores td {
-  padding-right: 150px;
+.fan-table th,
+.fan-table td {
+  padding: 5px 50px 5px 0;
   border-bottom: solid 1px;
 }
 
-.tabela-torcedores th:last-child,
-.tabela-torcedores td:last-child {
+.fan-table th:last-child,
+.fan-table td:last-child {
   padding-right: 0;
+  text-align: right;
 }
 
-.tabela-torcedores tbody tr:hover {
-  background: #a9b9e4; /*#7fd9f8*/
+.fan-table tbody tr:hover {
+  background: #a4b1d5;
 }
 
-.tabela-torcedores tbody tr:hover a {
-  color: #fff; /*#7fd9f8*/
+.fan-table tbody tr:hover a {
+  color: #fff;
 }
 
-.tabela-torcedores__lista-acoes li {
+.fan-table__actions-list {
+  display: inline-block;
+  margin: 0;
+}
+
+.fan-table__actions-list li {
   list-style-type: none;
   float: left;
   margin-right: 10px;
@@ -34,6 +41,22 @@
   text-transform: lowercase;
 }
 
-.tabela-torcedores__lista-acoes li:last-child {
+.fan-table__actions-list li:last-child {
   margin-right: 0;
+}
+
+.page-sub-header select {
+  margin-right: 10px;
+}
+
+input[type="text"] {
+  padding: 15px 10px;
+}
+
+.page-sub-header button {
+  float: right;
+}
+
+.page-sub-header {
+  margin-bottom: 15px;
 }
