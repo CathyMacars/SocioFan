@@ -1,20 +1,23 @@
 <?php include "inc/header.php"; ?>
 
-    <div class="container">
+  <div class="container">
 
-      <div class="page-header">
-        <h1>Editar / Adicionar</h1>
-      </div>
+    <div class="page-header">
+      <h1>Editar / Adicionar</h1>
+    </div>
 
-
-      <fieldset>
-        <legend>
-          <input type="text" class="input-xlarge" id="title-input" placeholder="Digite o nome do torcedor">
-        </legend>
+    <div class="row-fluid">
         <form class="form-horizontal">
+          <fieldset>
+            <legend>
+              <input type="text" class="input-xlarge" id="title-input" placeholder="Digite o nome do torcedor">
+            </legend>
+          </fieldset>
 
-          <div class="row-fluid">
-            <div class="span6">
+
+
+          <div class="span4">
+            <fieldset>
               <div class="control-group">
                 <label class="control-label" for="here">Sexo</label>
                 <div class="controls">
@@ -27,73 +30,61 @@
                 </div>
               </div>
 
-              <div class="control-group">
-                <label class="control-label" for="here">Estado Civil</label>
-                <div class="controls">
-                  <select id="here">
-                    <option disabled="disabled" selected="selected">Selecione</option>
-                    <option>Casado(a)</option>
-                    <option>Solteiro(a)</option>
-                    <option>Divorciado(a) / Separado(a)</option>
-                  </select>
+                <div class="control-group">
+                  <label class="control-label" for="here">Estado Civil</label>
+                  <div class="controls">
+                    <select id="here">
+                      <option disabled="disabled" selected="selected">Selecione</option>
+                      <option>Casado(a)</option>
+                      <option>Solteiro(a)</option>
+                      <option>Divorciado(a) / Separado(a)</option>
+                    </select>
+                  </div>
                 </div>
-              </div>
 
-              <div class="control-group">
-                <label class="control-label" for="here">Nome do Pai</label>
-                <div class="controls">
-                  <input id="here" type="text">
+                <div class="control-group">
+                  <label class="control-label" for="here">Nome do Pai</label>
+                  <div class="controls">
+                    <input id="here" type="text">
+                  </div>
                 </div>
-              </div>
 
-              <div class="control-group">
-                <label class="control-label" for="here">Nome da Mãe</label>
-                <div class="controls">
-                  <input id="here" type="text">
+                <div class="control-group">
+                  <label class="control-label" for="here">Nome da Mãe</label>
+                  <div class="controls">
+                    <input id="here" type="text">
+                  </div>
                 </div>
-              </div>
 
-              <div class="control-group">
-                <label class="control-label" for="here">Identidade</label>
-                <div class="controls">
-                  <input id="here" type="text">
+                <div class="control-group">
+                  <label class="control-label" for="here">Identificação</label>
+                  <div class="controls">
+                    <input id="here" class="span6" type="text" placeholder="RG">
+                    <input id="here" class="span6" type="text" placeholder="CPF">
+                  </div>
                 </div>
-              </div>
 
-              <div class="control-group">
-                <label class="control-label" for="here">CPF</label>
-                <div class="controls">
-                  <input id="here" type="text">
+                <div class="control-group">
+                  <label class="control-label" for="here">Profissão</label>
+                  <div class="controls">
+                    <input id="here" type="text">
+                  </div>
                 </div>
-              </div>
+              </fieldset>
+          </div>
 
-              <div class="control-group">
-                <label class="control-label" for="here">Profissão</label>
-                <div class="controls">
-                  <input id="here" type="text">
-                </div>
-              </div>
 
+
+          <div class="span4">
+            <fieldset>
               <div class="control-group">
                 <label class="control-label" for="here">Rua</label>
                 <div class="controls">
-                  <input id="here" type="text">
+                  <input id="here" class="span8" type="text">
+                  <input id="here" class="span4" type="text" placeholder="No">
                 </div>
               </div>
 
-              <div class="control-group">
-                <label class="control-label" for="here">No</label>
-                <div class="controls">
-                  <input id="here" type="text" class="input-mini">
-                </div>
-              </div>
-            </div>
-
-
-
-
-
-            <div class="span6">
               <div class="control-group">
                 <label class="control-label" for="here">Complemento</label>
                 <div class="controls">
@@ -121,7 +112,13 @@
                   <input id="here" type="text">
                 </div>
               </div>
+            </fieldset>
+          </div>
 
+
+
+          <div class="span4">
+            <fieldset>
               <div class="control-group">
                 <label class="control-label" for="here">E-mail</label>
                 <div class="controls">
@@ -155,15 +152,12 @@
                   <button type="submit" class="btn">Salvar</button>
                 </div>
               </div>
-            </div>
+            </fieldset>
           </div>
-
-
-
         </form>
-      </fieldset>
+    </div>
 
 
-    </div> <!-- /container -->
+  </div> <!-- /container -->
 
  <?php include "inc/footer.php"; ?>

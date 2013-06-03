@@ -93,8 +93,22 @@ input[type="password"] {
   transition: none;
 }
 
+.form-horizontal > div:nth-child(2) {
+  margin-left: 0;
+}
 
 
+/*.form-horizontal .control-label {
+  width: 145px
+}
+
+.form-horizontal .controls {
+  margin-left: 165px;
+}
+
+.form-horizontal .controls select {
+  width: 205px;
+}*/
 
 
 
