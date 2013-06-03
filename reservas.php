@@ -11,7 +11,7 @@
         <input class="table-filter" type="text" class="filter" placeholder="Filtrar por cód. cadeira...">
         <input class="table-filter" type="text" class="filter" placeholder="Filtrar por torcedor...">
 
-        <button class="btn">Adicionar Reserva</button>
+        <button class="btn" onclick="window.location.href='adicionar.php'">Adicionar Reserva</button>
       </div>
 
 
@@ -21,7 +21,7 @@
                  <th> Data </th>
                  <th> Cod. Cadeira </th>
                  <th> Torcedor </th>
-                 <th>  </th>
+                 <th> 3/5 </th>
             </tr>
         </thead>
         <tbody>

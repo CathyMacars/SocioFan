@@ -93,7 +93,7 @@ input[type="password"] {
   transition: none;
 }
 
-.form-horizontal > div:nth-child(2) {
+.row-fluid > form > div:nth-child(2) {
   margin-left: 0;
 }
 
@@ -110,8 +110,13 @@ input[type="password"] {
   width: 205px;
 }*/
 
+select {
+  width: 210px;
+}
 
-
+.input-append .add-on, .input-prepend .add-on {
+  height: 22px;
+}
 
 
 

@@ -16,7 +16,7 @@
 
         <input class="table-filter" type="text" class="filter" placeholder="Filtrar por login...">
 
-        <button class="btn">Adicionar Torcedor</button>
+        <button class="btn" onclick="window.location.href='editar.php'">Adicionar Torcedor</button>
       </div>
 
 
@@ -25,7 +25,7 @@
             <tr>
                  <th> Login </th>
                  <th> Modalidade </th>
-                 <th>  </th>
+                 <th> 3/5 </th>
             </tr>
         </thead>
         <tbody>
