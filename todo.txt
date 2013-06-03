@@ -1,0 +1,5 @@
+multas.php
+  campo "para a seleção da data" (datepicker?)
+
+torcedores.php
+  "identificação de torcedores sendo visualizados / torcedores cadastrados" (wtf?)
