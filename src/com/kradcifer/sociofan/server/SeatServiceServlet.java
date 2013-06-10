@@ -41,6 +41,12 @@ public class SeatServiceServlet extends RemoteServiceServlet implements SeatServ
 	@Override
 	public void saveReservation(SaveReservationsDTO saveReservation) throws Exception {
 		
+		if (saveReservation.fanId == null)
+			throw new Exception("O torcedor selecionado não existe.");
+		
+		if (saveReservation.seatId == null)
+			throw new Exception("A cadeira selecionada não existe.");
+		
 		boolean available = dao.ofy().query(Reservation.class)
 								.filter("gameDate", saveReservation.gameDate)
 								.filter("seat.id", saveReservation.seatId).count() == 0;
