@@ -1,0 +1,2 @@
+serviceClass: com.kradcifer.sociofan.shared.FanService
+path: 769FB1C58836F5D7C76F3A3603263F2B.gwt.rpc

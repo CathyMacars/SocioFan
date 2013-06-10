@@ -1,0 +1,14 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+
+	<g:HTMLPanel>
+		<form class="form-signin">
+			<h2 class="form-signin-heading">Login</h2>
+			<g:TextBox ui:field="login" styleName="input-block-level" />
+			<g:PasswordTextBox ui:field="pass" styleName="input-block-level" />
+			<g:Button ui:field="enter" styleName="btn btn-large btn-primary" text="Entrar" />
+		</form>
+	</g:HTMLPanel>
+
+</ui:UiBinder> 

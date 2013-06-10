@@ -1,0 +1,10 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	
+	<g:HTMLPanel>
+		<g:HTMLPanel ui:field="menuSlot" styleName="PKT_ENABLED"/>
+		<g:HTMLPanel ui:field="historySlot" styleName="container"/>
+	</g:HTMLPanel>
+	
+</ui:UiBinder> 

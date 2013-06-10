@@ -1,0 +1,2 @@
+serviceClass: com.kradcifer.sociofan.shared.SeatService
+path: C16C9F7C35A6DF7A5314F5D1FEB1E3E6.gwt.rpc

@@ -1,0 +1,2 @@
+serviceClass: com.kradcifer.sociofan.shared.LoginService
+path: 762953EEE5BF194DDE805C7FD0CDCB96.gwt.rpc
