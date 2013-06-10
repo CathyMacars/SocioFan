@@ -28,7 +28,6 @@ public class AddEditFanPresenter extends Presenter<AddEditFanView> {
 			fanId = new Long(getParam());
 		} catch (Exception e) {
 			// No param.
-			getEnv().getHistory().back();
 		}
 		
 		if (fanId != null)

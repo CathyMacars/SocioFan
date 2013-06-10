@@ -4,7 +4,6 @@ import java.util.List;
 
 import javax.persistence.Embedded;
 
-import com.googlecode.objectify.Key;
 import com.googlecode.objectify.annotation.Entity;
 import com.kradcifer.sociofan.shared.FanModality;
 
@@ -17,7 +16,6 @@ public class Fan extends Armazenavel {
 	@Embedded private FanInfo fanInfo;
 	
 	private FanModality fanModality;
-	private List<Key<Reservation>> reservations;
 	
 	public Documentation getDocs() {
 		return docs;
@@ -41,14 +39,6 @@ public class Fan extends Armazenavel {
 
 	public void setFines(List<Fine> fines) {
 		this.fines = fines;
-	}
-
-	public List<Key<Reservation>> getReservations() {
-		return reservations;
-	}
-
-	public void setReservations(List<Key<Reservation>> reservations) {
-		this.reservations = reservations;
 	}
 
 	public FanInfo getFanInfo() {

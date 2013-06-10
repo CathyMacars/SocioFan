@@ -13,7 +13,7 @@ import com.google.gwt.user.client.ui.MultiWordSuggestOracle;
 import com.kradcifer.sociofan.client.Environment;
 import com.kradcifer.sociofan.client.mvp.Presenter;
 import com.kradcifer.sociofan.shared.FanModality;
-import com.kradcifer.sociofan.shared.dto.SaveReservationsDTO;
+import com.kradcifer.sociofan.shared.dto.SaveReservationDTO;
 import com.kradcifer.sociofan.shared.dto.SuggestionDTO;
 
 @SuppressWarnings("static-access")
@@ -58,6 +58,7 @@ public class AddEditReservationPresenter extends Presenter<AddEditReservationVie
 				for (SuggestionDTO current : result) {
 					oracle.add(current.text);
 					keys.put(current.text, current.entityId);
+					System.out.println("current.text: " + current.text);
 				}
 			}
 
@@ -78,11 +79,12 @@ public class AddEditReservationPresenter extends Presenter<AddEditReservationVie
 	
 	private void save() {
 		
-		SaveReservationsDTO saveReservation = new SaveReservationsDTO();
+		SaveReservationDTO saveReservation = new SaveReservationDTO();
 		
 		saveReservation.fanId = fanKeys.get(getView().suggestFan.getValue());
 		saveReservation.seatId = seatKeys.get(getView().suggestSeat.getValue());
 		saveReservation.gameDate = getView().gameDate.getValue();
+		saveReservation.seatCode = getView().suggestSeat.getValue();
 		
 		getEnv().getSeatService().saveReservation(saveReservation, new AsyncCallback<Void>() {
 

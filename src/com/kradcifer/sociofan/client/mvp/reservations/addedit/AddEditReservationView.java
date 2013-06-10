@@ -2,6 +2,7 @@ package com.kradcifer.sociofan.client.mvp.reservations.addedit;
 
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.dom.client.FormElement;
+import com.google.gwt.i18n.client.DateTimeFormat;
 import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiField;
 import com.google.gwt.user.client.ui.Button;
@@ -28,6 +29,8 @@ public class AddEditReservationView extends Composite implements View {
 		initWidget(uiBinder.createAndBindUi(this));
 		
 		suggestFan.getElement().setAttribute("placeholder", "Digite o nome do torcedor");
+		
+		gameDate.setFormat(new DateBox.DefaultFormat(DateTimeFormat.getFormat("dd/MM/yyyy")));
 	}
 	
 	@UiField FormElement formElement;
