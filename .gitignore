@@ -215,6 +215,6 @@ pip-log.txt
 .mr.developer.cfg
 
 #gwt Thrash
-gwt-unitCache/*
-war/*
+gwt-unitCache/
+war/
 
