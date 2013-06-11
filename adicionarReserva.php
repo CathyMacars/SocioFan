@@ -35,11 +35,12 @@
                 </div>
               </div>
             </div>
-            <div class="control-group">
-              <div class="controls">
-                <button type="submit" class="btn" onclick="window.location.href='reservas.php'">Aplicar</button>
-              </div>
+          <div class="control-group">
+            <div class="controls">
+              <button type="button" onclick="window.location.href='reservas.php'" class="btn">Cancelar</button>
+              <button type="submit" onclick="window.location.href='reservas.php'" class="btn btn-primary">Salvar</button>
             </div>
+          </div>
         </fieldset>
       </form>
 

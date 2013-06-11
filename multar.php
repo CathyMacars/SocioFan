@@ -34,7 +34,8 @@
           </div>
           <div class="control-group">
             <div class="controls">
-              <button type="submit" class="btn">Aplicar</button>
+              <button type="button" onclick="window.location.href='index.php'" class="btn">Cancelar</button>
+              <button type="submit" onclick="window.location.href='index.php'" class="btn btn-primary">Salvar</button>
             </div>
           </div>
         </fieldset>

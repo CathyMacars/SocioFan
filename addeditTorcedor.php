@@ -158,11 +158,12 @@
                 </div>
               </div>
 
-              <div class="control-group">
-                <div class="controls">
-                  <button type="submit" class="btn" onclick="window.location.href='torcedores.php'">Salvar</button>
-                </div>
-              </div>
+          <div class="control-group">
+            <div class="controls">
+              <button type="button" onclick="window.location.href='index.php'" class="btn">Cancelar</button>
+              <button type="submit" onclick="window.location.href='index.php'" class="btn btn-primary">Salvar</button>
+            </div>
+          </div>
             </fieldset>
           </div>
         </form>

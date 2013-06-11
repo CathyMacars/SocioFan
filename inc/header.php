@@ -15,7 +15,7 @@
     </style>
 
     <!-- SocioFan CSS -->
-    <link href="css/SocioFan.css" rel="stylesheet">
+    <link href="css/sociofan.css" rel="stylesheet">
   </head>
 
   <body class="PKT_ENABLED">
@@ -30,9 +30,9 @@
           <a class="brand" href="index.php">SocioFan</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li class="active"><a href="index.php">Home</a></li>
-              <li><a href="torcedores.php">Torcedores</a></li>
+              <li class="active"><a href="index.php">Torcedores</a></li>
               <li><a href="reservas.php">Reservas</a></li>
+              <li><a href="cadeiras.php">Cadeiras</a></li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
