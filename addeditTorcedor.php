@@ -3,7 +3,7 @@
   <div class="container">
 
     <div class="page-header">
-      <h1>Editar / Adicionar</h1>
+      <h1>Editar / Adicionar Torcedor</h1>
     </div>
 
     <div class="row-fluid">

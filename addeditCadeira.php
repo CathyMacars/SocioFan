@@ -3,17 +3,27 @@
     <div class="container">
 
       <div class="page-header">
-        <h1>Editar cadeira</h1>
+        <h1>Adicionar / Editar Cadeira</h1>
       </div>
 
 
       <form class="form-horizontal">
         <fieldset>
-        <legend>Login do torcedor</legend>
+        <legend>Login do torcedor</legend>  <!-- colocar a classe "hide" quando não for pra mostrar-->
           <div class="control-group">
             <label class="control-label" for="value">Cód. Cadeira</label>
             <div class="controls">
               <input id="value" type="text" class="span2">
+            </div>
+          </div>
+          <div class="control-group"> <!-- colocar a classe "hide" quando não for pra mostrar-->
+            <label class="control-label" for="value">Reservas</label>
+            <div class="controls">
+              <ul>
+                <li><span>01/01/2013</span>&nbsp;-&nbsp;<span>Login</span></li>
+                <li><span>01/01/2013</span>&nbsp;-&nbsp;<span>Login</span></li>
+                <li><span>01/01/2013</span>&nbsp;-&nbsp;<span>Login</span></li>
+              </ul>
             </div>
           </div>
           <div class="control-group">

@@ -14,7 +14,7 @@
           <option>Reservadas</option>
         </select>
 
-        <button class="btn" onclick="window.location.href='adicionarCadeira.php'">Adicionar Cadeira</button>
+        <button class="btn" onclick="window.location.href='addeditCadeira.php'">Adicionar Cadeira</button>
       </div>
 
 

@@ -118,7 +118,9 @@ select {
   height: 22px;
 }
 
-
+.hide {
+  display: none;
+}
 
 
 

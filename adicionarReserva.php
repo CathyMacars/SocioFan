@@ -3,7 +3,7 @@
     <div class="container">
 
       <div class="page-header">
-        <h1>Adicionar reserva</h1>
+        <h1>Adicionar Reserva</h1>
       </div>
 
       <form class="form-horizontal">
