@@ -21,29 +21,27 @@
 
 
       <table class="table table-hover">
-        <thead>
-            <tr>
-                 <th> Login </th>
-                 <th> Modalidade </th>
-                 <th> 3/5 </th>
-            </tr>
-        </thead>
         <tbody>
-            <tr>
-                 <td> Login </td>
-                 <td> Modalidade </td>
-                 <td> <?php include "inc/fanTableActions.php"; ?> </td>
-            </tr>
-            <tr>
-                 <td> Login </td>
-                 <td> Modalidade </td>
-                 <td> <?php include "inc/fanTableActions.php"; ?> </td>
-            </tr>
-            <tr>
-                 <td> Login </td>
-                 <td> Modalidade </td>
-                 <td> <?php include "inc/fanTableActions.php"; ?> </td>
-            </tr>
+          <tr>
+            <th> Login </th>
+            <th> Modalidade </th>
+            <th> 3/5 </th>
+          </tr>
+          <tr>
+            <td> Login </td>
+            <td> Modalidade </td>
+            <td> <?php include "inc/fanTableActions.php"; ?> </td>
+          </tr>
+          <tr>
+            <td> Login </td>
+            <td> Modalidade </td>
+            <td> <?php include "inc/fanTableActions.php"; ?> </td>
+          </tr>
+          <tr>
+            <td> Login </td>
+            <td> Modalidade </td>
+            <td> <?php include "inc/fanTableActions.php"; ?> </td>
+          </tr>
         </tbody>
       </table>
     </div> <!-- /container -->

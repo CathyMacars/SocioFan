@@ -2,7 +2,7 @@
   width: 100%;
 }
 
-.site-table thead {
+.site-table th {
   line-height: 2em;
   text-transform: uppercase;
   text-align: left;
@@ -120,6 +120,14 @@ select {
 
 .hide {
   display: none;
+}
+
+.table-hover tbody tr:hover > td, .table-hover tbody tr:hover > th {
+  background: transparent;
+}
+
+.table-hover tbody tr:hover > td {
+  background: #eee;
 }
 
 /***** Login *****/
