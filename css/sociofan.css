@@ -186,7 +186,7 @@ body.login {
 }
 
 .gwt-DatePicker td {
-  padding: 2px 5px;
+  padding: 3px 5px;
 }
 
 .datePickerMonth {
@@ -200,14 +200,14 @@ body.login {
 }
 
 .datePickerDay {
-  padding: 5px;
+  padding: 2px 5px;
   font-size: 12px;
 }
 
 .datePickerDay:hover {
   background: #eee;
   font-weight: bold;
-  padding: 3px;
+  padding: 1px 5px;
   cursor: pointer;
 }
 
@@ -237,11 +237,15 @@ body.login {
 }
 
 .datePickerDayIsValue:hover {
-  color: #000;
+  background: #aaa;
 }
 
 .datePickerDayIsToday {
-  color: red;
+  color: red!important;
+}
+
+.datePickerDayIsToday:hover {
+  color: red!important;
 }
 
 /*.gwt-DatePicker {
@@ -349,5 +353,3 @@ body.login {
 .datePickerNextButton {
      text-align: right;
 }*/
-
-
