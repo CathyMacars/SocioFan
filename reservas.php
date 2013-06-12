@@ -16,14 +16,14 @@
 
 
       <table class="table table-hover">
-        <thead>
-            <tr>
-                 <th> Data </th>
-                 <th> Cod. Cadeira </th>
-                 <th> Torcedor </th>
-                 <th> 3/5 </th>
+        <tdead>
+            <tr class="thead">
+                 <td> Data </td>
+                 <td> Cod. Cadeira </td>
+                 <td> Torcedor </td>
+                 <td> 3/5 </td>
             </tr>
-        </thead>
+        </tdead>
         <tbody>
             <tr>
                  <td> xx/xx/xxxx </td>

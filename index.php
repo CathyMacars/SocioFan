@@ -21,11 +21,18 @@
 
 
       <table class="table table-hover">
-        <tbody>
+<!--         <thead>
           <tr>
-            <th> Login </th>
-            <th> Modalidade </th>
-            <th> 3/5 </th>
+            <th>Test</th>
+            <th>Test</th>
+            <th>Test</th>
+          </tr>
+        </thead> -->
+        <tbody>
+          <tr class="thead">
+            <td> Login </td>
+            <td> Modalidade </td>
+            <td> 3/5 </td>
           </tr>
           <tr>
             <td> Login </td>

@@ -19,13 +19,13 @@
 
 
       <table class="table table-hover">
-        <thead>
-            <tr>
-                 <th> Cód Cadeira </th>
-                 <th> Disponível? </th>
-                 <th> 3/5 </th>
+        <tdead>
+            <tr class="thead">
+                 <td> Cód Cadeira </td>
+                 <td> Disponível? </td>
+                 <td> 3/5 </td>
             </tr>
-        </thead>
+        </tdead>
         <tbody>
             <tr>
                  <td> 000 </td>
