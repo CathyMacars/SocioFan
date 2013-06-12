@@ -1,22 +1,4 @@
-<html lang="pt-br">
-  <head>
-    <meta charset="utf-8">
-    <title>SocioFan</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <!-- Template CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/bootstrap-responsive.css" rel="stylesheet">
-    <style type="text/css">
-      body {padding-top: 60px;}
-      .pkt_added {text-decoration:none !important;}
-    </style>
-
-    <!-- SocioFan CSS -->
-    <link href="css/sociofan.css" rel="stylesheet">
-  </head>
+<?php include "head.html"; ?>
 
   <body class="PKT_ENABLED">
     <div class="navbar navbar-inverse navbar-fixed-top">
