@@ -11,10 +11,14 @@
           <fieldset>
             <legend>
               <input type="text" class="input-xlarge" id="title-input" placeholder="Digite o nome do torcedor">
+              <select class="title-select">
+                <option disabled="disabled" selected="selected">Modalidade</option>
+                <option>Modalidade A</option>
+                <option>Modalidade B</option>
+                <option>Modalidade C</option>
+              </select>
             </legend>
           </fieldset>
-
-
 
           <div class="span4">
             <fieldset>
