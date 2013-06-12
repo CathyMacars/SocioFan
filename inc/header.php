@@ -12,7 +12,7 @@
           <a class="brand" href="login.php">SocioFan</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li class="active"><a href="index.php">Torcedores</a></li>
+              <li><a href="torcedores.php">Torcedores</a></li> <!-- Colocar a classe "active" no link selecionado -->
               <li><a href="reservas.php">Reservas</a></li>
               <li><a href="cadeiras.php">Cadeiras</a></li>
             </ul>

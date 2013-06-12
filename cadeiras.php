@@ -19,14 +19,12 @@
 
 
       <table class="table table-hover">
-        <tdead>
-            <tr class="thead">
+        <tbody>
+           <tr class="thead">
                  <td> Cód Cadeira </td>
                  <td> Disponível? </td>
                  <td> 3/5 </td>
             </tr>
-        </tdead>
-        <tbody>
             <tr>
                  <td> 000 </td>
                  <td> Sim </td>
