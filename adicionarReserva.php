@@ -139,7 +139,7 @@
                                 <div tabindex="0" aria-selected="false" class="datePickerDay  datePickerDayIsToday  ">11</div>
                               </td>
                               <td>
-                                <div tabindex="0" aria-selected="false" class="datePickerDay ">12</div>
+                                <div tabindex="0" aria-selected="false" class="datePickerDay datePickerDayIsValue">12</div>
                               </td>
                               <td>
                                 <div tabindex="0" aria-selected="false" class="datePickerDay ">13</div>
