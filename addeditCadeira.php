@@ -1,12 +1,9 @@
 <?php include "inc/header.php"; ?>
 
     <div class="container">
-
       <div class="page-header">
         <h1>Adicionar / Editar Cadeira</h1>
       </div>
-
-
       <form class="form-horizontal">
         <fieldset>
         <legend>Login do torcedor</legend>  <!-- colocar a classe "hide" quando não for pra mostrar-->
@@ -34,7 +31,6 @@
           </div>
         </fieldset>
       </form>
-
     </div> <!-- /container -->
 
  <?php include "inc/footer.php"; ?>

@@ -1,12 +1,9 @@
 <?php include "inc/header.php"; ?>
 
     <div class="container">
-
       <div class="page-header">
         <h1>Adicionar multa</h1>
       </div>
-
-
       <form class="form-horizontal">
         <fieldset>
         <legend>Login do torcedor</legend>
@@ -26,10 +23,11 @@
             <label class="control-label" for="here">Data</label>
             <div class="controls">
               <!-- Como usar o DatePicker: http://www.eyecon.ro/bootstrap-datepicker/ -->
-              <div class="input-append date" id="dp1" data-date-format="dd-mm-yyyy">
+              <!-- <div class="input-append date" id="dp1" data-date-format="dd-mm-yyyy"> -->
                 <input type="text" class="span3 datepicker">
-                <span class="add-on"><i class="icon-th"></i></span>
-              </div>
+                <!-- <span class="add-on"><i class="icon-th"></i></span>
+              </div> -->
+              <?php include "inc/datePicker.php"; ?>
             </div>
           </div>
           <div class="control-group">
@@ -40,7 +38,6 @@
           </div>
         </fieldset>
       </form>
-
     </div> <!-- /container -->
 
  <?php include "inc/footer.php"; ?>

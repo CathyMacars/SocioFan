@@ -1,11 +1,9 @@
 <?php include "inc/header.php"; ?>
 
     <div class="container">
-
       <div class="page-header">
         <h1>Torcedores</h1>
       </div>
-
       <div class="page-sub-header">
         <select>
           <option disabled="disabled" selected="selected">Filtrar por modalidade</option>
@@ -13,13 +11,9 @@
           <option>Modalidade B</option>
           <option>Modalidade C</option>
         </select>
-
         <input class="table-filter" type="text" class="filter" placeholder="Filtrar por login...">
-
         <button class="btn" onclick="window.location.href='addeditTorcedor.php'">Adicionar Torcedor</button>
       </div>
-
-
       <table class="table table-hover">
 <!--         <thead>
           <tr>

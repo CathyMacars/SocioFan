@@ -1,3 +1,57 @@
+/* ==========================================================================
+   Geral
+   ========================================================================== */
+body {
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+/* ==========================================================================
+   Miscellaneous
+   ========================================================================== */
+.pkt_added {text-decoration:none !important;}
+
+.input-append .add-on, .input-prepend .add-on {
+  height: 22px;
+}
+
+.hide {
+  display: none;
+}
+
+/* ==========================================================================
+   Login
+   ========================================================================== */
+.form-signin {
+  max-width: 300px;
+  padding: 19px 29px 29px;
+  margin: 40px auto 20px auto;
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+     -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
+          box-shadow: 0 1px 2px rgba(0,0,0,.05);
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+
+.form-signin input[type="text"],
+.form-signin input[type="password"] {
+  font-size: 16px;
+  height: auto;
+  margin-bottom: 15px;
+  padding: 7px 9px;
+}
+
+/* ==========================================================================
+   Tabelas
+   ========================================================================== */
 .table-hover .thead td {
   line-height: 2em;
   text-align: left;
@@ -9,15 +63,16 @@
   text-align: right;
 }
 
-.site-table tbody tr:hover a {
-  color: #fff;
+.table-hover tbody tr:hover > td {
+  background: #ededed;
 }
 
-.nav li,
-.nav a {
-  cursor: pointer;
+.table-hover tbody .thead:hover > td {
+  background: transparent;
 }
 
+/* Ações das tabelas
+   ========================================================================== */
 .site-table__actions-list {
   display: inline-block;
   margin: 0;
@@ -35,16 +90,22 @@
   margin-right: 0;
 }
 
+
+/* ==========================================================================
+   Navegação principal
+   ========================================================================== */
+.nav li,
+.nav a {
+  cursor: pointer;
+}
+
+
+/* ==========================================================================
+   Header das telas
+   ========================================================================== */
 .page-sub-header select {
   margin-right: 10px;
 }
-
-textarea,
-input[type="text"],
-input[type="password"] {
-  /*padding: 15px 10px;*/
-}
-
 .page-sub-header button {
   float: right;
 }
@@ -53,6 +114,21 @@ input[type="password"] {
   margin-bottom: 15px;
 }
 
+/* ==========================================================================
+   Default dos Inputs
+   ========================================================================== */
+textarea,
+input[type="text"],
+input[type="password"] {
+  /*padding: 15px 10px;*/
+}
+
+select {
+  width: 210px;
+}
+
+/* Input do tipo "Título"
+   ========================================================================== */
 #title-input {
   border-color: transparent;
   box-shadow: none;
@@ -85,6 +161,8 @@ input[type="password"] {
   transition: none;
 }
 
+/* Select no "Título" de formulários
+   ========================================================================== */
 .title-select {
   float: right;
 }
@@ -93,79 +171,8 @@ input[type="password"] {
   margin-left: 0;
 }
 
-
-/*.form-horizontal .control-label {
-  width: 145px
-}
-
-.form-horizontal .controls {
-  margin-left: 165px;
-}
-
-.form-horizontal .controls select {
-  width: 205px;
-}*/
-
-select {
-  width: 210px;
-}
-
-.input-append .add-on, .input-prepend .add-on {
-  height: 22px;
-}
-
-.hide {
-  display: none;
-}
-
-.table-hover tbody tr:hover > td {
-  background: #ededed;
-}
-
-.table-hover tbody .thead:hover > td {
-  background: transparent;
-}
-
-/***** Login *****/
-body {
-  padding-bottom: 40px;
-  background-color: #f5f5f5;
-}
-
-/*body.login {
-    background-color: #f5f5f5;
-}*/
-
-.form-signin {
-  max-width: 300px;
-  padding: 19px 29px 29px;
-  margin: 40px auto 20px auto;
-  background-color: #fff;
-  border: 1px solid #e5e5e5;
-  -webkit-border-radius: 5px;
-     -moz-border-radius: 5px;
-          border-radius: 5px;
-  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.05);
-     -moz-box-shadow: 0 1px 2px rgba(0,0,0,.05);
-          box-shadow: 0 1px 2px rgba(0,0,0,.05);
-}
-
-.form-signin .form-signin-heading,
-.form-signin .checkbox {
-  margin-bottom: 10px;
-}
-
-.form-signin input[type="text"],
-.form-signin input[type="password"] {
-  font-size: 16px;
-  height: auto;
-  margin-bottom: 15px;
-  padding: 7px 9px;
-}
-
-.pkt_added {text-decoration:none !important;}
-
-/***** Gwt Date-Picker *****/
+/* DatePicker do GWT
+   ========================================================================== */
 .gwt-DatePicker {
   background: #eee;
   color: #556;
@@ -259,109 +266,3 @@ body {
 .datePickerDayIsToday:hover {
   color: red!important;
 }
-
-/*.gwt-DatePicker {
-  border: 1px solid #f1f1f1;
-  border-bottom: 2px solid #f1f1f1;
-  color: 6b6b6b;
-  cursor: default;
-  width: 7em;
-}
-
-.datePickerDay,.datePickerWeekdayLabel,.datePickerWeekendLabel {
-  font-family: Arial;
-  font-size: 65%;
-  padding: 2px;
-  text-align: center;
-  padding: 2px;
-  outline: none;
-  cursor: default;
-}
-
-.gwt-DatePicker td,.datePickerMonthSelector  td :focus {
-  outline: none
-}
-
-.gwt-DateBox input {
-  width: 8em;
-}
-
-/*
-* Calendar styles
-*/
-/*.datePickerDays {
-  background-color: white;
-  width: 100%;
-}
-
-.datePickerWeekdayLabel {
-  background: #dbe6de;
-}
-
-.datePickerWeekendLabel {
-  background: #dbe7ef;
-}
-
-.datePickerDay {
-  padding: 1px;
-  cursor: hand;
-  width: 1em;
-}
-
-.datePickerDayIsToday {
-  border: 1px solid black;
-  padding: 0px;
-}
-
-.datePickerDayIsWeekend {
-  background: #f1f1f1;
-}
-
-.datePickerDayIsFiller {
-  color: #bfbfbf;
-  padding: 1px;
-  cursor: hand;
-}
-
-.datePickerDayIsSelected {
-  background: #aaccee;
-}
-
-.datePickerDayIsDisabled {
-  color: graytext;
-}
-
-.datePickerDayIsHighlighted {
-  border: 1px solid #eeeeee;
-  padding: 0px;
-}
-
-.datePickerDayIsSelectedAndHighlighted {
-   background: #bbddff;
-}
-*/
-
-/*
-* Month selector styles
-*/
-/*.datePickerMonthSelector {
-  background: #dbe6de;
-  width: 100%;
-  text-align: center;
-}
-
-.datePickerMonth {
-  text-align: center;
-  vertical-align: center;
-  white-space: nowrap;
-  font-weight: bold;
-  font-size: 70%;
-}
-
-.datePickerPreviousButton {
-   text-align: left;
-}
-
-.datePickerNextButton {
-     text-align: right;
-}*/

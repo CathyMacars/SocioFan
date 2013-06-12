@@ -1,11 +1,9 @@
 <?php include "inc/header.php"; ?>
 
   <div class="container">
-
     <div class="page-header">
       <h1>Editar / Adicionar Torcedor</h1>
     </div>
-
     <div class="row-fluid">
         <form>
           <fieldset>
@@ -19,20 +17,19 @@
               </select>
             </legend>
           </fieldset>
-
           <div class="span4">
             <fieldset>
               <div class="control-group">
                   <label class="control-label" for="here">Nascimento</label>
                   <div class="controls">
                     <!-- Como usar o DatePicker: http://www.eyecon.ro/bootstrap-datepicker/ -->
-                    <div class="input-append date" id="dp1" data-date-format="dd-mm-yyyy">
-                      <input type="text" class="span11 datepicker">
-                      <span class="add-on"><i class="icon-th"></i></span>
-                    </div>
+                    <!-- <div class="input-append date" id="dp1" data-date-format="dd-mm-yyyy"> -->
+                      <input type="text" class="span3 datepicker">
+                      <!-- <span class="add-on"><i class="icon-th"></i></span>
+                    </div> -->
+                    <?php include "inc/datePicker.php"; ?>
                   </div>
                 </div>
-
                 <div class="control-group">
                   <label class="control-label" for="here">Sexo</label>
                   <div class="controls">
@@ -44,7 +41,6 @@
                     </label>
                   </div>
                 </div>
-
                 <div class="control-group">
                   <label class="control-label" for="here">Estado Civil</label>
                   <div class="controls">
@@ -56,21 +52,18 @@
                     </select>
                   </div>
                 </div>
-
                 <div class="control-group">
                   <label class="control-label" for="here">Nome do Pai</label>
                   <div class="controls">
                     <input id="here" type="text">
                   </div>
                 </div>
-
                 <div class="control-group">
                   <label class="control-label" for="here">Nome da Mãe</label>
                   <div class="controls">
                     <input id="here" type="text">
                   </div>
                 </div>
-
                 <div class="control-group">
                   <label class="control-label" for="here">Identificação</label>
                   <div class="controls">
@@ -78,7 +71,6 @@
                     <input id="here" class="span4" type="text" placeholder="CPF">
                   </div>
                 </div>
-
                 <div class="control-group">
                   <label class="control-label" for="here">Profissão</label>
                   <div class="controls">
@@ -87,9 +79,6 @@
                 </div>
               </fieldset>
           </div>
-
-
-
           <div class="span4">
             <fieldset>
               <div class="control-group">
@@ -99,28 +88,24 @@
                   <input id="here" class="span2" type="text" placeholder="No">
                 </div>
               </div>
-
               <div class="control-group">
                 <label class="control-label" for="here">Complemento</label>
                 <div class="controls">
                   <input id="here" type="text">
                 </div>
               </div>
-
               <div class="control-group">
                 <label class="control-label" for="here">Bairro</label>
                 <div class="controls">
                   <input id="here" type="text">
                 </div>
               </div>
-
               <div class="control-group">
                 <label class="control-label" for="here">Cidade</label>
                 <div class="controls">
                   <input id="here" type="text">
                 </div>
               </div>
-
               <div class="control-group">
                 <label class="control-label" for="here">CEP</label>
                 <div class="controls">
@@ -129,9 +114,6 @@
               </div>
             </fieldset>
           </div>
-
-
-
           <div class="span4">
             <fieldset>
               <div class="control-group">
@@ -140,40 +122,34 @@
                   <input id="here" type="text">
                 </div>
               </div>
-
               <div class="control-group">
                 <label class="control-label" for="here">Tel. Residencial</label>
                 <div class="controls">
                   <input id="here" type="text">
                 </div>
               </div>
-
               <div class="control-group">
                 <label class="control-label" for="here">Celular</label>
                 <div class="controls">
                   <input id="here" type="text">
                 </div>
               </div>
-
               <div class="control-group">
                 <label class="control-label" for="here">Tel. Comercial</label>
                 <div class="controls">
                   <input id="here" type="text">
                 </div>
               </div>
-
-          <div class="control-group">
-            <div class="controls">
-              <button type="button" onclick="window.location.href='torcedores.php'" class="btn">Cancelar</button>
-              <button type="submit" onclick="window.location.href='torcedores.php'" class="btn btn-primary">Salvar</button>
-            </div>
-          </div>
+              <div class="control-group">
+                <div class="controls">
+                  <button type="button" onclick="window.location.href='torcedores.php'" class="btn">Cancelar</button>
+                  <button type="submit" onclick="window.location.href='torcedores.php'" class="btn btn-primary">Salvar</button>
+                </div>
+              </div>
             </fieldset>
           </div>
         </form>
     </div>
-
-
   </div> <!-- /container -->
 
  <?php include "inc/footer.php"; ?>
