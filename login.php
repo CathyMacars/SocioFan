@@ -1,6 +1,6 @@
 <?php include "inc/head.html"; ?>
 
-  <body class=" PKT_ENABLED">
+  <body class="PKT_ENABLED login">
     <div class="container">
       <form class="form-signin">
         <h2 class="form-signin-heading">Login</h2>
@@ -9,7 +9,7 @@
         <label class="checkbox">
           <input type="checkbox" value="remember-me"> Lembrar
         </label>
-        <button class="btn btn-large btn-primary" type="submit">Entrar</button>
+        <button type="button" class="btn btn-large btn-primary" onclick="window.location.href='index.php'">Entrar</button>
       </form>
     </div> <!-- /container -->
 
